@@ -1,5 +1,12 @@
 public class Demo{
 public static void main(String [] args){
 System.out.println(" demo class");
+Test t=new test();
+t.m1();
+}
+} 
+class Test{
+public void m1(){
+system.out.println("m1() method");
 }
 }
